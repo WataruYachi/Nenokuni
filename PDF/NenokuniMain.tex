@@ -1,0 +1,47 @@
+\documentclass[autodetect-engine,dvipdfmx-if-dvi,a5paper,twoside,titlepage,final]{ltjtbook}
+    \usepackage{luatexja}
+    \usepackage{luatexja-fontspec}
+    \usepackage{luatexja-ruby}
+    \usepackage{lscape}
+    \usepackage{pifont}
+    \usepackage{subfiles}
+    \usepackage{color}
+    \usepackage{luatexja-otf}
+    \usepackage{comment}
+    \usepackage{multicol}
+    \usepackage{pifont}
+    %\usepackage[dvipdfmx]{graphicx}
+    %\graphicspath{{../images/}}
+    %\setmainfont{ipaexm}
+    \newopentypefeature{PKana}{On}{pkna}
+    \setmainjfont[
+      TateFeatures={JFM=propv,PKana=On,Kerning=On}, %JFMを指定する
+    ]{ipaexm.ttf}
+
+    \setmainjfont[
+        JFM=prop,PKana=On,Kerning=On,
+        BoldFont={ipaexm},
+        ItalicFont={ipaexm},
+        BoldItalicFont={ipaexm}
+    ]{ipaexm}
+    \setmonofont{MyricaM}
+
+    %\setlength{\columnsep}{4\zw}
+    %\columnseprule=0.4pt
+    \newcommand{\Entry}[2]{
+	\chapter*{\setmainfont{SoukouMincho} #1 \\ {\tt \large #2}}
+	\markboth{\tt #2}{\tt #2}
+	\setcounter{equation}{0}
+    }
+
+\begin{document}
+
+\title{\tt \Huge ネノクニ/Nenokuni}
+\author{}
+\date{}
+\maketitle
+
+\subfile{sections/NenokuniSection1}
+%\jfontspec{SoukouMincho.ttf}
+
+\end{document}
