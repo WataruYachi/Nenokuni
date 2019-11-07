@@ -1,4 +1,4 @@
-This is LuajitTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=luajitlatex 2018.2.27)  20 JAN 2019 18:44
+This is LuajitTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=luajitlatex 2018.2.27)  16 FEB 2019 01:56
  system commands enabled.
 **NenokuniSection1
 (./NenokuniSection1.tex
@@ -22,7 +22,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.834 seconds
+luaotfload | main : initialization completed in 0.153 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (e:/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls
 Document Class: subfiles 2012/05/23 Federico Garcia
@@ -246,7 +246,7 @@ LaTeX Info: Redefining \fontshape on input line 548.
 LaTeX Info: Redefining \normalfont on input line 560.
 ) (e:/texlive/2017/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
 Package: lltjdefs 2017/11/12 Default font settings of LuaTeX-ja
-luaotfload | db : Font names database loaded from E:/texlive/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.lua.gz(load luc: E:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.lub)
+luaotfload | db : Font names database loaded from E:/texlive/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: E:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.lub)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 53.
 luaotfload | cache : Lookup cache loaded from E:/texlive/2017/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: E:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/ipaexm.lub)(load cache: C:/Users/yatiw/.texlive2017/texmf-var/luatexja/extra_ipaexmincho.lub)
@@ -1417,7 +1417,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Here is how much of LuaTeX's memory you used:
  15016 strings out of 494483
- 305211,552014 words of node,token memory allocated
+ 305218,552014 words of node,token memory allocated
  17291 words of node memory still in use:
    25 hlist, 1 vlist, 4 rule, 15 glue, 103 kern, 1 glyph, 3681 attribute, 1707 glue_spec, 191 attribute_list, 1 write, 11 user_defined, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:7,2:67154,3:7687,4:182,5:4127,6:2464,7:3338,8:51,9:2575,10:38,11:8
@@ -1425,7 +1425,7 @@ Here is how much of LuaTeX's memory you used:
  66 fonts using 51955095 bytes
  60i,7n,95p,914b,994s stack positions out of 5000i,500n,10000p,200000b,100000s
 <e:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><c:/WINDOWS/fonts/myrica.ttc><e:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><e:/texlive/2017/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf><e:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><e:/texlive/2017/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on NenokuniSection1.pdf (48 pages, 1083696 bytes).
+Output written on NenokuniSection1.pdf (48 pages, 1083542 bytes).
 
 PDF statistics: 194 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams
